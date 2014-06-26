@@ -1,0 +1,30 @@
+{
+  "name": "url",
+  "version": "1.0.0",
+  "description": "core url wrapper that accepts addresses without protocol",
+  "keywords": [],
+  "homepage": "https://github.com/ramitos/url",
+  "bugs": {
+    "url": "http://github.com/ramitos/url/issues",
+    "email": "mail@sergioramos.me"
+  },
+  "licenses": [{
+    "url": "https://raw.github.com/ramitos/url/master/license",
+    "type": "MIT"
+  }],
+  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
+  "main": "src/url.js",
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/url.git"
+  },
+  "scripts": {
+    "test": "make test test-coveralls"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
